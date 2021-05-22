@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+body {
+    margin: 0px;
+    overflow: hidden;
+    background-color: black;
+}
+span {
+    font-family: 'Raleway', sans-serif;
+}
+.score {
+    position: fixed;
+    color: white;
+    font-size: 15px;
+    user-select: none;
+}
+#end_game {
+    position: fixed;
+    background-color: white;
+    width: 500px;
+    height: 225px;
+    align-items: center;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 250px;
+    border-radius: 10px;
+}
+#end_game h1 {
+    font-weight: bold;
+    font-size: 50px !important;
+    line-height: 1;
+}
+#end_game p {
+    padding-bottom: 10px;
+}
+#end_game button {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px !important;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
